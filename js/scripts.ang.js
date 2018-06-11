@@ -10,7 +10,7 @@ app.controller('myPageCtrl', function($scope,$http){
 	/* ------------------------------ */
 
 	$scope.mapInitialization = function() {
-		$scope.myLatlng = new google.maps.LatLng(33.96290,-118.43589),
+		$scope.myLatlng = new google.maps.LatLng(19.26946,-99.167760),
 		$scope.mapOptions = {
 			zoom: 14,
 			scrollwheel: false,
@@ -119,7 +119,7 @@ app.controller('myPageCtrl', function($scope,$http){
 	/* ------------------------------ */
 	/* ANIMATED COUNTER
 	/* ------------------------------ */
-	
+
 	$scope.counterInit = function() {
 		$('.statistic').on('inview.uk.scrollspy', function(){
 			$scope.numAnim1 = new CountUp('statistic_counter_1', 0, 100, 0, 3.5);
@@ -132,7 +132,7 @@ app.controller('myPageCtrl', function($scope,$http){
 			$scope.numAnim4.start();
 		});
 	}
-	
+
 	$scope.counterInit();
 
 	/* ------------------------------ */
@@ -544,7 +544,7 @@ app.controller('myPageCtrl', function($scope,$http){
 								.find('.error_response').html(resp.msg).fadeIn(1000);
 						}
 					},
-					url: "http://google.us3.list-manage.com/subscribe/post?u=54cac12d99d1b2a0c0e0177b4&amp;id=d5469b7ba3" // Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "". 
+					url: "http://google.us3.list-manage.com/subscribe/post?u=54cac12d99d1b2a0c0e0177b4&amp;id=d5469b7ba3" // Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".
 				});
 			})(i);
 		}
