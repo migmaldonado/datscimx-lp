@@ -10,7 +10,7 @@ app.controller('myPageCtrl', function($scope,$http){
 	/* ------------------------------ */
 
 	$scope.mapInitialization = function() {
-		$scope.myLatlng = new google.maps.LatLng(19.26946,-99.167760),
+		$scope.myLatlng = new google.maps.LatLng(19.426943,-99.167760),
 		$scope.mapOptions = {
 			zoom: 14,
 			scrollwheel: false,
