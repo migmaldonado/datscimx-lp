@@ -617,7 +617,7 @@ p {
 	background: #516070;
 }
 .best_price.price_block:before {
-	content: "Best Price";
+	content: "Best Value";
     position: absolute;
     z-index: 3;
     top: 22px;
